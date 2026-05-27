@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <RootNamespace>ELYA.Worker</RootNamespace>
+    <AssemblyName>ELYA.Worker</AssemblyName>
+    <OutputType>Exe</OutputType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="9.0.0" />
+    <PackageReference Include="Hangfire.Core" Version="1.8.17" />
+    <PackageReference Include="Hangfire.AspNetCore" Version="1.8.17" />
+    <PackageReference Include="Hangfire.SqlServer" Version="1.8.17" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ELYA.Application\ELYA.Application.csproj" />
+    <ProjectReference Include="..\ELYA.Infrastructure\ELYA.Infrastructure.csproj" />
+    <ProjectReference Include="..\ELYA.Persistence\ELYA.Persistence.csproj" />
+    <ProjectReference Include="..\ELYA.Shared\ELYA.Shared.csproj" />
+  </ItemGroup>
+
+</Project>

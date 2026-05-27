@@ -1,0 +1,25 @@
+{
+  "app": {
+    "title": "ELYA İK ve Bordro"
+  },
+  "nav": {
+    "login": "Giriş",
+    "dashboard": "Kontrol Paneli"
+  },
+  "login": {
+    "title": "Giriş yap",
+    "subtitle": "Geçici giriş sayfası — kimlik doğrulama gelecek sprintte eklenecek.",
+    "email": "E-posta",
+    "password": "Şifre",
+    "submit": "Giriş yap"
+  },
+  "dashboard": {
+    "title": "Kontrol Paneli",
+    "welcome": "ELYA İK ve Bordro'ya hoş geldiniz"
+  },
+  "language": {
+    "en": "İngilizce",
+    "ar": "Arapça",
+    "tr": "Türkçe"
+  }
+}

@@ -1,0 +1,8 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <RootNamespace>ELYA.Shared</RootNamespace>
+    <AssemblyName>ELYA.Shared</AssemblyName>
+  </PropertyGroup>
+
+</Project>

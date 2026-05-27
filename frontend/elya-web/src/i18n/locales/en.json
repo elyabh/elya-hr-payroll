@@ -1,0 +1,25 @@
+{
+  "app": {
+    "title": "ELYA HR & Payroll"
+  },
+  "nav": {
+    "login": "Login",
+    "dashboard": "Dashboard"
+  },
+  "login": {
+    "title": "Sign in",
+    "subtitle": "Placeholder login page — authentication will be added in a future sprint.",
+    "email": "Email",
+    "password": "Password",
+    "submit": "Sign in"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "welcome": "Welcome to ELYA HR & Payroll"
+  },
+  "language": {
+    "en": "English",
+    "ar": "Arabic",
+    "tr": "Turkish"
+  }
+}
